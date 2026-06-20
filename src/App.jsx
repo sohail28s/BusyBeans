@@ -20,14 +20,14 @@ import CategoryManagement from './Components/CategoriesManagement/CategoryManage
 import CountryManagement from './Pages/ZoneManagement/CountryManagement.jsx';
 import ShippingChargesManagement from './Pages/ShippingCharges/ShippingChargesManagement.jsx';
 import TastingRequests from './Pages/TastingRequest/TastingRequest.jsx';
-import QuickbooksManagement from './Components/Quickbooks/QuickbooksManagement.js';
+import QuickbooksManagement from './Components/Quickbooks/QuickbooksManagement.jsx';
 import EmployeeManagement from './Pages/EmployeeManagement/EmployeeManagement.jsx';
 import EmployeeDetails from './Pages/EmployeeManagement/EmployeeDetails.jsx';
 import PaymentPullouts from './Pages/PaymentPullout/PaymentPulloutPage.jsx';
 import Payouts from './Pages/EmployeeManagement/Payouts.jsx';
 import  AllInvoicesPage  from './Pages/InvoiceManagement/All_Invoices.jsx';
 import InvoiceManagementPage from './Pages/InvoiceManagement/InvoiceManagment.jsx';
-import CreateInvoicePage from './Components/InvoiceManagement/CreateInvoice/CreateInvoicePage.js';
+import CreateInvoicePage from './Components/InvoiceManagement/CreateInvoice/CreateInvoicePage.jsx';
 import UpdateInvoicePage from './Pages/InvoiceManagement/UpdateInvoice.jsx';
 import DirectInvoiceDetailsPage from './Pages/InvoiceManagement/DirectInvoiceDetailsPage.jsx';
 import PageLoader from './Hooks/PageLoader.jsx';
@@ -37,11 +37,11 @@ import ScrollWrapper from './Hooks/ScrollWrapper.jsx'
 import PulloutIntentSyncPage from './Pages/QuickbooksInvoices/PulloutIntentsync.jsx';
 import CountryRoutes from './Routes/CountryRoutes.jsx'
 import ProtectedRoute from './Hooks/ProtectedRoute.jsx';
-import ForgotPassword from './Components/Login/ForgotPassword.js';
-import VerifyEmail from './Components/Login/VerifyEmail.js';
-import ResetPassword from './Components/Login/ResetPassoword.js';
+import ForgotPassword from './Components/Login/ForgotPassword.jsx';
+import VerifyEmail from './Components/Login/VerifyEmail.jsx';
+import ResetPassword from './Components/Login/ResetPassoword.jsx';
 import SupplierLoginRoutes from './Routes/SupplierRoutes/SupplierLoginRoutes.jsx';
-import AssignedOrdersReport from './Components/SupplierUser/Reports/AssignedOrdersReport.js';
+import AssignedOrdersReport from './Components/SupplierUser/Reports/AssignedOrdersReport.jsx';
 
 
 export default function App() {
