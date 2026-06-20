@@ -1,0 +1,31 @@
+import React, { useEffect } from 'react'; 
+import { PartnerOrderLayout } from '../../Components/PartnerOrders/PartnerOrderLayout' 
+import useStore from '../../Hooks/useStore' 
+
+const NewOrders = () => { 
+    const setStoreTitle = useStore(state => state.setTitle);
+    const setIsGlobalLoading = useStore(state => state.setIsGlobalLoading);
+    const setShowProfile = useStore((state) => state.setShowProfile); 
+   
+
+    useEffect(() => { 
+        setStoreTitle('New Partner Orders'); 
+        setIsGlobalLoading(true);
+        setShowProfile(false);
+
+        return () => {
+            setStoreTitle('');
+            setIsGlobalLoading(false);
+            setShowProfile(true);
+        };
+    }, [setStoreTitle, setIsGlobalLoading , setShowProfile]); 
+
+    return ( 
+        <PartnerOrderLayout 
+            apiEndpoint="https://testingbb.trimworldwide.com/api/v1/admin/partner-order/orders-list?statusId=1&page=1&limit=100" 
+            detailsBaseRoute="/orders/partnerOrders/detail" 
+        /> 
+    ); 
+}; 
+
+export default NewOrders;
