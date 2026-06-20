@@ -16,7 +16,7 @@ import PurchasedSubscriptions from './Pages/MachineSubscriptions/PurchasedSubscr
 import { SubscriptionDetailsPage } from './Pages/MachineSubscriptions/SubscriptionDetailsPage.jsx';
 import AddonsPage from './Pages/MachineSubscriptions/AddonsPage.jsx';
 import InventoryManagement from './Pages/InventoryManagement/InventoryManagemnet.jsx';
-import CategoryManagement from './Components/CategoriesManagement/CategoryManagement.js';
+import CategoryManagement from './Components/CategoriesManagement/CategoryManagement.jsx';
 import CountryManagement from './Pages/ZoneManagement/CountryManagement.jsx';
 import ShippingChargesManagement from './Pages/ShippingCharges/ShippingChargesManagement.jsx';
 import TastingRequests from './Pages/TastingRequest/TastingRequest.jsx';
