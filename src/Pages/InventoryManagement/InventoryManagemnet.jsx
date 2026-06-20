@@ -4,14 +4,14 @@ import { toast } from 'react-toastify';
 import useStore from '../../Hooks/useStore';
 import { exportToCSV } from '../../utils/csvHelper';
 import { exportToExcel } from '../../utils/excelHelper';
-import InventoryToggleBar from '../../ComponentsTemp/OrderManagement/InventoryToggleBar';
-import { PageStatsHeader } from '../../ComponentsTemp/Shared/PageStatsHeader';
-import { InventoryTable } from '../../ComponentsTemp/InventoryManagement/InventroyTable';
-import AddProductModal from '../../ComponentsTemp/OrderManagement/Modals/AddProductModal';
-import ChangePriceModal from '../../ComponentsTemp/OrderManagement/Modals/ChangePricesModal';
-import { InventoryModal } from '../../ComponentsTemp/InventoryManagement/InventoryModal';
-import DeleteProductModal from '../../ComponentsTemp/InventoryManagement/DeleteProductModal';
-import { ExportModal } from '../../ComponentsTemp/InventoryManagement/ExportModal';
+import InventoryToggleBar from '../../Components/OrderManagement/InventoryToggleBar';
+import { PageStatsHeader } from '../../Components/Shared/PageStatsHeader';
+import { InventoryTable } from '../../Components/InventoryManagement/InventroyTable';
+import AddProductModal from '../../Components/OrderManagement/Modals/AddProductModal';
+import ChangePriceModal from '../../Components/OrderManagement/Modals/ChangePricesModal';
+import { InventoryModal } from '../../Components/InventoryManagement/InventoryModal';
+import DeleteProductModal from '../../Components/InventoryManagement/DeleteProductModal';
+import { ExportModal } from '../../Components/InventoryManagement/ExportModal';
 import { getAuthConfig } from '../../utils/orderUtils';
 
 

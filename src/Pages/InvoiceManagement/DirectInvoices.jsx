@@ -3,8 +3,8 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 import useStore from '../../Hooks/useStore';
 import { exportToCSV } from '../../utils/csvHelper';
-import { PageStatsHeader } from '../../ComponentsTemp/Shared/PageStatsHeader';
-import { DirectInvoicesTable } from '../../ComponentsTemp/InvoiceManagement/Allinvoices/DirectInvoicesTable';
+import { PageStatsHeader } from '../../Components/Shared/PageStatsHeader';
+import { DirectInvoicesTable } from '../../Components/InvoiceManagement/Allinvoices/DirectInvoicesTable';
 import { getAuthConfig } from '../../utils/orderUtils';
 
 

@@ -2,10 +2,10 @@ import React, { useState, useEffect, useRef } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom'; 
 import axios from 'axios'; 
 import useStore from '../../Hooks/useStore'; 
-import ReportDateBar from '../../ComponentsTemp/Home/ReportDateBar'; 
-import ReportHeader from '../../ComponentsTemp/Home/ReportHeader'; 
-import ProductCategoryTable from '../../ComponentsTemp/Home/Tables/ProductCategoryTable'; 
-import FilterModal from '../../ComponentsTemp/Home/Modals/FilterModal'; 
+import ReportDateBar from '../../Components/Home/ReportDateBar'; 
+import ReportHeader from '../../Components/Home/ReportHeader'; 
+import ProductCategoryTable from '../../Components/Home/Tables/ProductCategoryTable'; 
+import FilterModal from '../../Components/Home/Modals/FilterModal'; 
 import { exportToCSV } from '../../utils/csvHelper'; 
 
 const getDatesForPreset = (preset) => { 

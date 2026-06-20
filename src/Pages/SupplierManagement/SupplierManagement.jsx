@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'; 
 import { useNavigate } from 'react-router-dom'; 
 import useStore from '../../Hooks/useStore'; 
-import { PageStatsHeader } from '../../ComponentsTemp/Shared/PageStatsHeader' 
-import { SupplierTable } from '../../ComponentsTemp/SupplierManagement/SupplierTable'; 
+import { PageStatsHeader } from '../../Components/Shared/PageStatsHeader' 
+import { SupplierTable } from '../../Components/SupplierManagement/SupplierTable'; 
 
 const SupplierManagement = () => { 
     const navigate = useNavigate(); 

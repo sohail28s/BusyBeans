@@ -3,10 +3,10 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import useStore from '../../Hooks/useStore';
-import { FilterLeadsModal } from '../../ComponentsTemp/LeadsDashboard/FilterLeadsModal';
-import { LeadModal } from '../../ComponentsTemp/LeadsDashboard/LeadModal';
-import { AssignLeadModal } from '../../ComponentsTemp/LeadsDashboard/AssignLeadModal';
-import { DeleteLeadModal } from '../../ComponentsTemp/LeadsDashboard/DeleteLeadModal';
+import { FilterLeadsModal } from '../../Components/LeadsDashboard/FilterLeadsModal';
+import { LeadModal } from '../../Components/LeadsDashboard/LeadModal';
+import { AssignLeadModal } from '../../Components/LeadsDashboard/AssignLeadModal';
+import { DeleteLeadModal } from '../../Components/LeadsDashboard/DeleteLeadModal';
 import { getAuthConfig } from '../../utils/orderUtils';
 import { formatDate } from '../../utils/orderUtils';
 

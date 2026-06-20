@@ -4,8 +4,8 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 import useStore from '../../Hooks/useStore';
 import { exportToCSV } from '../../utils/csvHelper';
-import { EmployeeCustomersTable } from '../../ComponentsTemp/EmployeeManagement/Employee/EmployeeCustomersTable';
-import { UnlinkCustomerModal } from '../../ComponentsTemp/EmployeeManagement/Employee/UnlinkCustomerModal';
+import { EmployeeCustomersTable } from '../../Components/EmployeeManagement/Employee/EmployeeCustomersTable';
+import { UnlinkCustomerModal } from '../../Components/EmployeeManagement/Employee/UnlinkCustomerModal';
 import { getAuthConfig } from '../../utils/orderUtils';
 
 export const EmployeeDetails = () => {

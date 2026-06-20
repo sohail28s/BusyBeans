@@ -3,10 +3,10 @@ import React, { useState, useEffect, useMemo } from 'react';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import useStore from '../../Hooks/useStore';
-import { PageStatsHeader } from '../../ComponentsTemp/Shared/PageStatsHeader'; 
+import { PageStatsHeader } from '../../Components/Shared/PageStatsHeader'; 
 import { exportToCSV } from '../../utils/csvHelper';
-import { PurchasedSubscriptionsTable } from '../../ComponentsTemp/MachineSubscriptions/Purchased/PurchasedSubscriptionTable';
-import {CancelSubscriptionModal} from '../../ComponentsTemp/MachineSubscriptions/Purchased/CancelSubscriptionModal'
+import { PurchasedSubscriptionsTable } from '../../Components/MachineSubscriptions/Purchased/PurchasedSubscriptionTable';
+import {CancelSubscriptionModal} from '../../Components/MachineSubscriptions/Purchased/CancelSubscriptionModal'
 const API_URL = "https://testingbb.trimworldwide.com/api/v1/subscription/list";
 
 const getAuthConfig = () => ({

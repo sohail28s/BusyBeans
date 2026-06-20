@@ -3,8 +3,8 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 import { useParams, useLocation, useNavigate } from 'react-router-dom';
 import useStore from '../../Hooks/useStore';
-import { InvoiceItemsSection } from '../../ComponentsTemp/InvoiceManagement/CreateInvoice/InvoiceItemsSection';
-import { AddProductModal } from '../../ComponentsTemp/InvoiceManagement/CreateInvoice/AddProductModal';
+import { InvoiceItemsSection } from '../../Components/InvoiceManagement/CreateInvoice/InvoiceItemsSection';
+import { AddProductModal } from '../../Components/InvoiceManagement/CreateInvoice/AddProductModal';
 import { getAuthConfig } from '../../utils/orderUtils';
 
 const initialFormData = {

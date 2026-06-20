@@ -3,8 +3,8 @@ import axios from 'axios';
 import { toast } from 'react-toastify'; 
 import useStore from '../../Hooks/useStore'; 
 import { exportToCSV } from '../../utils/csvHelper'; 
-import { PageStatsHeader } from '../../ComponentsTemp/Shared/PageStatsHeader'; 
-import { PaymentPulloutTable } from '../../ComponentsTemp/PaymentPullouts/PaymentPulloutsTable'; 
+import { PageStatsHeader } from '../../Components/Shared/PageStatsHeader'; 
+import { PaymentPulloutTable } from '../../Components/PaymentPullouts/PaymentPulloutsTable'; 
 import { getAuthConfig } from '../../utils/orderUtils'; 
 
 export const PaymentPullouts = () => { 

@@ -2,10 +2,10 @@ import React, { useState, useEffect, useCallback, useMemo } from 'react';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import useStore from '../../Hooks/useStore';
-import { PageStatsHeader } from '../../ComponentsTemp/Shared/PageStatsHeader';
-import { DeleteAddonModal } from '../../ComponentsTemp/MachineSubscriptions/Addons/DeleteAddonModel';
-import { EditAddonModal } from '../../ComponentsTemp/MachineSubscriptions/Addons/EditAddonModal';
-import { AddAddonsModal } from '../../ComponentsTemp/MachineSubscriptions/Addons/AddAddonsModal';
+import { PageStatsHeader } from '../../Components/Shared/PageStatsHeader';
+import { DeleteAddonModal } from '../../Components/MachineSubscriptions/Addons/DeleteAddonModel';
+import { EditAddonModal } from '../../Components/MachineSubscriptions/Addons/EditAddonModal';
+import { AddAddonsModal } from '../../Components/MachineSubscriptions/Addons/AddAddonsModal';
 import { getAuthConfig } from '../../utils/orderUtils';
 export const AddonsPage = () => {
     const setTitle = useStore((state) => state.setTitle);

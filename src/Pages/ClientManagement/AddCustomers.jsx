@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import useStore from '../../Hooks/useStore';
-import { CustomerForm } from '../../ComponentsTemp/ClientManagement/CustomerForm';
+import { CustomerForm } from '../../Components/ClientManagement/CustomerForm';
 
 const AddCustomer = () => {
     const navigate = useNavigate();

@@ -5,12 +5,12 @@ import { useNavigate, useParams } from 'react-router-dom';
 import useStore from '../../Hooks/useStore';
 import { getAuthConfig } from '../../utils/orderUtils';
 import ReactCountryFlag from 'react-country-flag';
-import { SortableHeader } from '../../ComponentsTemp/Shared/Table/SortableHeader';
-import { TablePagination } from '../../ComponentsTemp/Shared/Table/TablePagination';
+import { SortableHeader } from '../../Components/Shared/Table/SortableHeader';
+import { TablePagination } from '../../Components/Shared/Table/TablePagination';
 import { exportToCSV } from '../../utils/csvHelper';
-import DeleteLocationModal from '../../ComponentsTemp/ZoneManagement/DeleteLocationModal';
-import AddLocationModal from '../../ComponentsTemp/ZoneManagement/AddLocationModal';
-import { AddTerritoryModal } from '../../ComponentsTemp/ZoneManagement/TerritoryModal';
+import DeleteLocationModal from '../../Components/ZoneManagement/DeleteLocationModal';
+import AddLocationModal from '../../Components/ZoneManagement/AddLocationModal';
+import { AddTerritoryModal } from '../../Components/ZoneManagement/TerritoryModal';
 
 // ── Icons ────────────────────────────────────────────────────────────────────
 const EditIcon = () => (

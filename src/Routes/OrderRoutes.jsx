@@ -17,10 +17,10 @@ import DispatchOrders from '../Pages/PartnerOrders/DispatchOrders';
 import AcknowledgedOrders from '../Pages/PartnerOrders/AcknowledgedOrders';
 import ShippedOrders from '../Pages/PartnerOrders/ShippedOrders';
 import CancelledOrders from '../Pages/PartnerOrders/CancelledOrders';
-import RegularOrderDetailsPage from '../ComponentsTemp/Shared/OrderDetailsPage';
+import RegularOrderDetailsPage from '../Components/Shared/OrderDetailsPage';
 import UpdateInvoicePage from '../Pages/InvoiceManagement/UpdateInvoice';
-import InvoicePage from '../ComponentsTemp/Shared/InvoicePage';
-import EditOrderAddressesPage from '../ComponentsTemp/Shared/OrderDetails/EditAddressPage';
+import InvoicePage from '../Components/Shared/InvoicePage';
+import EditOrderAddressesPage from '../Components/Shared/OrderDetails/EditAddressPage';
 
 export default function OrderRoutes() {
   return (

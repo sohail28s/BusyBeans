@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios'; 
 import { useNavigate } from 'react-router-dom'; 
 import useStore from '../../Hooks/useStore'; 
-import WelcomeBanner from '../../ComponentsTemp/Home/WelcomeBanner'; 
-import SalesCard from '../../ComponentsTemp/Home/Cards/SalesCard'; 
-import ListCard from '../../ComponentsTemp/Home/Cards/ListCard'; 
-import EmployeeListCard from '../../ComponentsTemp/Home/Cards/EmployeeListCard'; 
+import WelcomeBanner from '../../Components/Home/WelcomeBanner'; 
+import SalesCard from '../../Components/Home/Cards/SalesCard'; 
+import ListCard from '../../Components/Home/Cards/ListCard'; 
+import EmployeeListCard from '../../Components/Home/Cards/EmployeeListCard'; 
 
 const formatDate = (dateObj) => { 
     const year = dateObj.getFullYear(); 

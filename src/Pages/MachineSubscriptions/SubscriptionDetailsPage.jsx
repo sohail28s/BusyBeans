@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import useStore from '../../Hooks/useStore'; // Added useStore import
-import { CancelSubscriptionModal } from '../../ComponentsTemp/MachineSubscriptions/Purchased/CancelSubscriptionModal';
+import { CancelSubscriptionModal } from '../../Components/MachineSubscriptions/Purchased/CancelSubscriptionModal';
 import { getAuthConfig } from '../../utils/orderUtils';
 export const SubscriptionDetailsPage = () => {
     const { id } = useParams();

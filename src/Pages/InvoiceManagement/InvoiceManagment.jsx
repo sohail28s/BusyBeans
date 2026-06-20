@@ -3,8 +3,8 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 import useStore from '../../Hooks/useStore';
 import { exportToCSV } from '../../utils/csvHelper';
-import { PageStatsHeader } from '../../ComponentsTemp/Shared/PageStatsHeader';
-import { InvoiceManagementTable } from '../../ComponentsTemp/InvoiceManagement/Allinvoices/InvoiceManagementTable';
+import { PageStatsHeader } from '../../Components/Shared/PageStatsHeader';
+import { InvoiceManagementTable } from '../../Components/InvoiceManagement/Allinvoices/InvoiceManagementTable';
 import { getAuthConfig } from '../../utils/orderUtils';
 export const InvoiceManagementPage = () => {
     const setTitle = useStore((state) => state.setTitle);

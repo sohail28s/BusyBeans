@@ -1,6 +1,6 @@
 import React from 'react';
 import { useEffect } from 'react';
-import { ActionPageLayout } from '../../ComponentsTemp/OrderManagement/SharedOrderActions'; 
+import { ActionPageLayout } from '../../Components/OrderManagement/SharedOrderActions'; 
 import useStore from '../../Hooks/useStore';
 const SendOrderEmails = () => {
     const setShowNavbar = useStore((state) => state.setShowNavbar);

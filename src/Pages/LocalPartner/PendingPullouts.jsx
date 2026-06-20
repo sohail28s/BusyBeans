@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import useStore from '../../Hooks/useStore';
-import { PageStatsHeader } from '../../ComponentsTemp/Shared/PageStatsHeader'; 
+import { PageStatsHeader } from '../../Components/Shared/PageStatsHeader'; 
 
 const SortableHeader = ({ label, sortKey, currentSort, onSort, width = "w-auto" }) => { 
     const isActive = currentSort.key === sortKey && currentSort.direction !== 'default'; 
