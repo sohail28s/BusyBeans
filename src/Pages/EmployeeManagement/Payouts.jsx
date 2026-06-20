@@ -3,7 +3,7 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 import useStore from '../../Hooks/useStore';
 import { exportToCSV } from '../../utils/csvHelper';
-import { PayoutsTable } from '../../Components/EmployeeManagement/Payout/PayoutTable';
+import { PayoutsTable } from '../../ComponentsTemp/EmployeeManagement/Payout/PayoutTable';
 import { getAuthConfig } from '../../utils/orderUtils';
 
 const EmployeeFilterDropdown = ({ value, onChange, options }) => {

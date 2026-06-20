@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { StandardCustomerLayout } from '../../Components/CustomerOrders/StandardCustomerLayout';
-import { CustomerFilterModal } from '../../Components/CustomerOrders/CustomerFilterModal';
+import { StandardCustomerLayout } from '../../ComponentsTemp/CustomerOrders/StandardCustomerLayout';
+import { CustomerFilterModal } from '../../ComponentsTemp/CustomerOrders/CustomerFilterModal';
 import useStore from '../../Hooks/useStore';
 
 const AllCustomerOrders = () => {

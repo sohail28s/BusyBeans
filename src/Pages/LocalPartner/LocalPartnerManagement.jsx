@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'; 
 import { useNavigate } from 'react-router-dom'; 
 import useStore from '../../Hooks/useStore'; 
-import { PageStatsHeader } from '../../Components/Shared/PageStatsHeader'; 
-import { LocalPartnerTable } from '../../Components/LocalPartners/LocalPartnerTable'; 
+import { PageStatsHeader } from '../../ComponentsTemp/Shared/PageStatsHeader'; 
+import { LocalPartnerTable } from '../../ComponentsTemp/LocalPartners/LocalPartnerTable'; 
 
 const LocalPartnerManagement = () => { 
     const navigate = useNavigate(); 

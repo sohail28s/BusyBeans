@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { PartnerOrderLayout } from '../../Components/PartnerOrders/PartnerOrderLayout';
+import { PartnerOrderLayout } from '../../ComponentsTemp/PartnerOrders/PartnerOrderLayout';
 import useStore from '../../Hooks/useStore'
 
 const DispatchOrders = () => {

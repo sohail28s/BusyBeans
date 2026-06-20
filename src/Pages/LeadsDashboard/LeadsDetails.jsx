@@ -3,10 +3,10 @@ import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios'; 
 import { toast } from 'react-toastify'; 
 import useStore from '../../Hooks/useStore'; 
-import { UpdateStageModal } from '../../Components/LeadsDashboard/DetailPageModels/UpdateStageModal'; 
-import { MarkLostModal } from '../../Components/LeadsDashboard/DetailPageModels/MarkLostModal'; 
-import { ScheduleModal } from '../../Components/LeadsDashboard/DetailPageModels/SceduleModal'; 
-import { QuotationModal } from '../../Components/LeadsDashboard/DetailPageModels/QuotationModal'; 
+import { UpdateStageModal } from '../../ComponentsTemp/LeadsDashboard/DetailPageModels/UpdateStageModal'; 
+import { MarkLostModal } from '../../ComponentsTemp/LeadsDashboard/DetailPageModels/MarkLostModal'; 
+import { ScheduleModal } from '../../ComponentsTemp/LeadsDashboard/DetailPageModels/SceduleModal'; 
+import { QuotationModal } from '../../ComponentsTemp/LeadsDashboard/DetailPageModels/QuotationModal'; 
 import { getAuthConfig , formatMoney , formatDateWithTime , formatDate } from '../../utils/orderUtils'; 
 
 const STAGES = ['New Enquiry', 'Contacted', 'Quoted', 'Demo/Scheduled', 'Negotiation', 'Nurture', 'WON']; 

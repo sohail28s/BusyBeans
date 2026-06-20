@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
-import Login from './Components/Login/login';
+import Login from './ComponentsTemp/Login/login.js';
 import MainLayout from './Layout/MainLayout';
 import DashboardHome from './Pages/Home/DashboardHome';
 import OrderRoutes from './Routes/OrderRoutes';
@@ -16,18 +16,18 @@ import PurchasedSubscriptions from './Pages/MachineSubscriptions/PurchasedSubscr
 import { SubscriptionDetailsPage } from './Pages/MachineSubscriptions/SubscriptionDetailsPage.jsx';
 import AddonsPage from './Pages/MachineSubscriptions/AddonsPage.jsx';
 import InventoryManagement from './Pages/InventoryManagement/InventoryManagemnet.jsx';
-import CategoryManagement from './Components/CategoriesManagement/CategoryManagement.jsx';
+import CategoryManagement from './ComponentsTemp/CategoriesManagement/CategoryManagement.js';
 import CountryManagement from './Pages/ZoneManagement/CountryManagement.jsx';
 import ShippingChargesManagement from './Pages/ShippingCharges/ShippingChargesManagement.jsx';
 import TastingRequests from './Pages/TastingRequest/TastingRequest.jsx';
-import QuickbooksManagement from './Components/Quickbooks/QuickbooksManagement.jsx';
+import QuickbooksManagement from './ComponentsTemp/Quickbooks/QuickbooksManagement.js';
 import EmployeeManagement from './Pages/EmployeeManagement/EmployeeManagement.jsx';
 import EmployeeDetails from './Pages/EmployeeManagement/EmployeeDetails.jsx';
 import PaymentPullouts from './Pages/PaymentPullout/PaymentPulloutPage.jsx';
 import Payouts from './Pages/EmployeeManagement/Payouts.jsx';
 import  AllInvoicesPage  from './Pages/InvoiceManagement/All_Invoices.jsx';
 import InvoiceManagementPage from './Pages/InvoiceManagement/InvoiceManagment.jsx';
-import CreateInvoicePage from './Components/InvoiceManagement/CreateInvoice/CreateInvoicePage.jsx';
+import CreateInvoicePage from './ComponentsTemp/InvoiceManagement/CreateInvoice/CreateInvoicePage.js';
 import UpdateInvoicePage from './Pages/InvoiceManagement/UpdateInvoice.jsx';
 import DirectInvoiceDetailsPage from './Pages/InvoiceManagement/DirectInvoiceDetailsPage.jsx';
 import PageLoader from './Hooks/PageLoader.jsx';
@@ -37,11 +37,11 @@ import ScrollWrapper from './Hooks/ScrollWrapper.jsx'
 import PulloutIntentSyncPage from './Pages/QuickbooksInvoices/PulloutIntentsync.jsx';
 import CountryRoutes from './Routes/CountryRoutes.jsx'
 import ProtectedRoute from './Hooks/ProtectedRoute.jsx';
-import ForgotPassword from './Components/Login/ForgotPassword.jsx';
-import VerifyEmail from './Components/Login/VerifyEmail.jsx';
-import ResetPassword from './Components/Login/ResetPassoword.jsx';
+import ForgotPassword from './ComponentsTemp/Login/ForgotPassword.js';
+import VerifyEmail from './ComponentsTemp/Login/VerifyEmail.js';
+import ResetPassword from './ComponentsTemp/Login/ResetPassoword.js';
 import SupplierLoginRoutes from './Routes/SupplierRoutes/SupplierLoginRoutes.jsx';
-import AssignedOrdersReport from './Components/SupplierUser/Reports/AssignedOrdersReport.jsx';
+import AssignedOrdersReport from './ComponentsTemp/SupplierUser/Reports/AssignedOrdersReport.js';
 
 
 export default function App() {

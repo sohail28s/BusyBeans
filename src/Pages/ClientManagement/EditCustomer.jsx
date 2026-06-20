@@ -3,8 +3,8 @@ import { useNavigate, useParams } from 'react-router-dom';
 import axios from 'axios'; 
 import { toast } from 'react-toastify'; 
 import useStore from '../../Hooks/useStore'; 
-import { CustomerForm } from '../../Components/ClientManagement/CustomerForm'; 
-import { UpdateDiscountModal } from '../../Components/ClientManagement/Modals/UpdateDiscountModal'; // Adjust path as needed!
+import { CustomerForm } from '../../ComponentsTemp/ClientManagement/CustomerForm'; 
+import { UpdateDiscountModal } from '../../ComponentsTemp/ClientManagement/Modals/UpdateDiscountModal'; // Adjust path as needed!
 import { getAuthConfig } from '../../utils/orderUtils';
 
 const EditCustomer = () => { 

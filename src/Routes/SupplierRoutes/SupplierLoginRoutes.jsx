@@ -6,11 +6,11 @@ import SupplierCustomerNewOrders from "../../Pages/SupplierUserPages/CustomerOrd
 import SupplierCustomerAcknowledgedOrders from "../../Pages/SupplierUserPages/CustomerOrders/CustomerAcknowledged";
 import SupplierCustomerShippedOrders from "../../Pages/SupplierUserPages/CustomerOrders/CustomerShipped";
 import SupplierReportManagement from "../../Pages/SupplierUserPages/SupplierReports";
-import { AssignLeadModal } from "../../Components/LeadsDashboard/AssignLeadModal";
-import AssignedOrdersReport from "../../Components/SupplierUser/Reports/AssignedOrdersReport";
-import OrderStatusReport from "../../Components/SupplierUser/Reports/OrderStatusReport";
-import TopProductsReport from "../../Components/SupplierUser/Reports/TopProductsReport";
-import SupplierCustomerOrderDetail from "../../Components/SupplierUser/OrderDetails/CustomerOrders/SupplierCustomerOrderDetail";
+import { AssignLeadModal } from "../../ComponentsTemp/LeadsDashboard/AssignLeadModal";
+import AssignedOrdersReport from "../../ComponentsTemp/SupplierUser/Reports/AssignedOrdersReport";
+import OrderStatusReport from "../../ComponentsTemp/SupplierUser/Reports/OrderStatusReport";
+import TopProductsReport from "../../ComponentsTemp/SupplierUser/Reports/TopProductsReport";
+import SupplierCustomerOrderDetail from "../../ComponentsTemp/SupplierUser/OrderDetails/CustomerOrders/SupplierCustomerOrderDetail";
 
 export default function SupplierLoginRoutes() {
     return (

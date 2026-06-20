@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { TablePagination } from '../../Components/Shared/Table/TablePagination';
+import { TablePagination } from '../Shared/Table/TablePagination';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import { getAuthConfig } from '../../utils/orderUtils';

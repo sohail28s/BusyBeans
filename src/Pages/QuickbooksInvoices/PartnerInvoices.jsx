@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios'; 
 import { toast } from 'react-toastify'; 
 import useStore from '../../Hooks/useStore'; 
-import { InvoiceFilterBar } from '../../Components/QuickbookInvoices/InvoiceFilterBar'; 
-import { InvoiceTable } from '../../Components/QuickbookInvoices/InvoiceTable'; 
+import { InvoiceFilterBar } from '../../ComponentsTemp/QuickbookInvoices/InvoiceFilterBar'; 
+import { InvoiceTable } from '../../ComponentsTemp/QuickbookInvoices/InvoiceTable'; 
 
 const PartnerInvoices = () => { 
     const setStoreTitle = useStore(state => state.setTitle); 

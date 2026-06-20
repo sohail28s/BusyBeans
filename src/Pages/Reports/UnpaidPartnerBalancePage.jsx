@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router-dom';
 import useStore from '../../Hooks/useStore';
 import { getAuthConfig } from '../../utils/orderUtils';
 import { exportToCSV } from '../../utils/csvHelper';
-import ReportDateBar from '../../Components/Home/ReportDateBar'; 
-import { UnpaidPartnerBalanceTable } from '../../Components/ReportsManagement/UnpaidPartnerBalanceTable'; // Adjust path if needed
+import ReportDateBar from '../../ComponentsTemp/Home/ReportDateBar'; 
+import { UnpaidPartnerBalanceTable } from '../../ComponentsTemp/ReportsManagement/UnpaidPartnerBalanceTable'; // Adjust path if needed
 
 const getDatesForPreset = (preset) => {
     const today = new Date();

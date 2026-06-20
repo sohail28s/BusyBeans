@@ -2,8 +2,8 @@
 
 import React, { useState, useMemo } from 'react'; 
 import { formatMoney, formatDate } from '../../utils/orderUtils'; 
-import { TablePagination } from '../../Components/Shared/Table/TablePagination'; 
-import { SortableHeader } from '../../Components/Shared/Table/SortableHeader'; 
+import { TablePagination } from '../../ComponentsTemp/Shared/Table/TablePagination'; 
+import { SortableHeader } from '../../ComponentsTemp/Shared/Table/SortableHeader'; 
 import { exportToCSV } from '../../utils/csvHelper'; 
 
 const PulloutIntentTable = ({ data, isLoading, pagination, setPagination, selectedRows, setSelectedRows, isSyncTab }) => { 

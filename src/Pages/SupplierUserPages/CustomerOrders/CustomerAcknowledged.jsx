@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'; 
 import useStore from '../../../Hooks/useStore'; 
-import { SupplierCustomerOrderLayout } from '../../../Components/SupplierUser/SupplierCustomerOrderLayout';
+import { SupplierCustomerOrderLayout } from '../../../ComponentsTemp/SupplierUser/SupplierCustomerOrderLayout';
 
 const SupplierCustomerAcknowledgedOrders = () => { 
     const setStoreTitle = useStore(state => state.setTitle); 

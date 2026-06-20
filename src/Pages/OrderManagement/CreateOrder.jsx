@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef } from 'react'; 
 import axios from 'axios'; 
 import useStore from '../../Hooks/useStore'; 
-import InventoryToggleBar from '../../Components/OrderManagement/InventoryToggleBar'; 
-import ProductSelection from '../../Components/OrderManagement/ProductSelection'; 
-import AddProductModal from '../../Components/OrderManagement/Modals/AddProductModal'; 
-import ChangePriceModal from '../../Components/OrderManagement/Modals/ChangePricesModal'; 
-import CartDrawer from '../../Components/OrderManagement/CartDrawer1'; 
+import InventoryToggleBar from '../../ComponentsTemp/OrderManagement/InventoryToggleBar'; 
+import ProductSelection from '../../ComponentsTemp/OrderManagement/ProductSelection'; 
+import AddProductModal from '../../ComponentsTemp/OrderManagement/Modals/AddProductModal'; 
+import ChangePriceModal from '../../ComponentsTemp/OrderManagement/Modals/ChangePricesModal'; 
+import CartDrawer from '../../ComponentsTemp/OrderManagement/CartDrawer1'; 
 
 const CategoryDropdown = ({ categories, selectedCategoryId, setSelectedCategoryId }) => { 
     const [isOpen, setIsOpen] = useState(false); 

@@ -3,9 +3,9 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 import useStore from '../../Hooks/useStore';
 import { getAuthConfig } from '../../utils/orderUtils';
-import { SortableHeader } from '../../Components/Shared/Table/SortableHeader';
+import { SortableHeader } from '../../ComponentsTemp/Shared/Table/SortableHeader';
 import { formatDate } from '../../utils/orderUtils';
-import { TablePagination } from '../../Components/Shared/Table/TablePagination';
+import { TablePagination } from '../../ComponentsTemp/Shared/Table/TablePagination';
 
 
 

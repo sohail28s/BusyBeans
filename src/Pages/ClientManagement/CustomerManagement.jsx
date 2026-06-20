@@ -3,7 +3,7 @@ import axios from 'axios';
 import { toast } from 'react-toastify'; 
 import { useNavigate } from 'react-router-dom'; 
 import useStore from '../../Hooks/useStore'; 
-import { CustomerLayout } from '../../Components/ClientManagement/CustomerLayout'; 
+import { CustomerLayout } from '../../ComponentsTemp/ClientManagement/CustomerLayout'; 
 
 const CustomerManagement = () => { 
     const navigate = useNavigate(); 

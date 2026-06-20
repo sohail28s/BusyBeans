@@ -3,10 +3,10 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 import { FiChevronDown } from 'react-icons/fi';
 import useStore from '../../Hooks/useStore';
-import { PageStatsHeader } from '../../Components/Shared/PageStatsHeader';
-import { MachineModal } from '../../Components/MachineSubscriptions/MachineModal';
-import { SubscribeModal } from '../../Components/MachineSubscriptions/SubscribeModal';
-import { DeleteMachineModal } from '../../Components/MachineSubscriptions/DeleteMachineModal';
+import { PageStatsHeader } from '../../ComponentsTemp/Shared/PageStatsHeader';
+import { MachineModal } from '../../ComponentsTemp/MachineSubscriptions/MachineModal';
+import { SubscribeModal } from '../../ComponentsTemp/MachineSubscriptions/SubscribeModal';
+import { DeleteMachineModal } from '../../ComponentsTemp/MachineSubscriptions/DeleteMachineModal';
 import { getAuthConfig } from '../../utils/orderUtils';
 
 export const Subscribe = () => {

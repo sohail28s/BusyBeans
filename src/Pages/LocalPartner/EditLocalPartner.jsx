@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useNavigate, useParams } from 'react-router-dom'; 
 import { toast } from 'react-toastify'; 
 import useStore from '../../Hooks/useStore'; 
-import { LocalPartnerForm } from '../../Components/LocalPartners/LocalPartnerForm'; 
+import { LocalPartnerForm } from '../../ComponentsTemp/LocalPartners/LocalPartnerForm'; 
 import { getAuthConfig } from '../../utils/orderUtils'; // Adjust path as needed 
 
 const EditLocalPartner = () => { 

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { StandardCustomerLayout } from '../../Components/CustomerOrders/StandardCustomerLayout';
+import { StandardCustomerLayout } from '../../ComponentsTemp/CustomerOrders/StandardCustomerLayout';
 import useStore from '../../Hooks/useStore';
 
 const NewCustomerOrders = () => {

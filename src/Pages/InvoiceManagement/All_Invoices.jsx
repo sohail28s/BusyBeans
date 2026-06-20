@@ -4,10 +4,10 @@ import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom'; 
 import useStore from '../../Hooks/useStore'; 
 import { exportToCSV } from '../../utils/csvHelper'; 
-import { PageStatsHeader } from '../../Components/Shared/PageStatsHeader'; 
-import { InvoiceTable } from '../../Components/InvoiceManagement/Allinvoices/InvoicesTable'; 
+import { PageStatsHeader } from '../../ComponentsTemp/Shared/PageStatsHeader'; 
+import { InvoiceTable } from '../../ComponentsTemp/InvoiceManagement/Allinvoices/InvoicesTable'; 
 import { getAuthConfig } from '../../utils/orderUtils'; 
-import DeleteInvoiceModal from '../../Components/InvoiceManagement/Allinvoices/DeleteInvoiceModal'; 
+import DeleteInvoiceModal from '../../ComponentsTemp/InvoiceManagement/Allinvoices/DeleteInvoiceModal'; 
 
 const getDatesForPreset = (preset) => { 
     const today = new Date(); 

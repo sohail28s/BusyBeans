@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import axios from 'axios'; 
 import { toast } from 'react-toastify'; 
 import useStore from '../../Hooks/useStore'; 
-import { AddressModal } from '../../Components/Shared/AddressModal'; 
+import { AddressModal } from '../../ComponentsTemp/Shared/AddressModal'; 
 import { formatDate } from '../../utils/orderUtils'; 
 
 const AddressBlock = ({ addressObj, phone }) => { 

@@ -3,11 +3,11 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 import useStore from '../../Hooks/useStore';
 import { exportToCSV } from '../../utils/csvHelper';
-import { PageStatsHeader } from '../../Components/Shared/PageStatsHeader';
-import { EmployeeTable } from '../../Components/EmployeeManagement/Employee/EmployeeTable';
-import { AddEditEmployeeModal } from '../../Components/EmployeeManagement/Employee/AddEditEmployeeModal';
-import { UpdateCommissionModal } from '../../Components/EmployeeManagement/Employee/UpdateCommissionModal';
-import { DeleteEmployeeModal } from '../../Components/EmployeeManagement/Employee/DeleteEmployeeModal';
+import { PageStatsHeader } from '../../ComponentsTemp/Shared/PageStatsHeader';
+import { EmployeeTable } from '../../ComponentsTemp/EmployeeManagement/Employee/EmployeeTable';
+import { AddEditEmployeeModal } from '../../ComponentsTemp/EmployeeManagement/Employee/AddEditEmployeeModal';
+import { UpdateCommissionModal } from '../../ComponentsTemp/EmployeeManagement/Employee/UpdateCommissionModal';
+import { DeleteEmployeeModal } from '../../ComponentsTemp/EmployeeManagement/Employee/DeleteEmployeeModal';
 import { getAuthConfig } from '../../utils/orderUtils';
 
 

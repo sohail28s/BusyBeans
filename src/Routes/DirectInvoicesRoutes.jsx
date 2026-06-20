@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import DirectInvoicesPage from "../Pages/InvoiceManagement/DirectInvoices";
 import DirectInvoiceDetailsPage from "../Pages/InvoiceManagement/DirectInvoiceDetailsPage";
 import UpdateInvoicePage from "../Pages/InvoiceManagement/UpdateInvoice";
-import InvoicePage from "../Components/Shared/InvoicePage";
+import InvoicePage from "../ComponentsTemp/Shared/InvoicePage";
 
 
 

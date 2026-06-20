@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'; 
 import useStore from '../../../Hooks/useStore'; 
-import { SupplierPartnerOrderLayout } from '../../../Components/SupplierUser/SupplierPartnerOrderLayout';
+import { SupplierPartnerOrderLayout } from '../../../ComponentsTemp/SupplierUser/SupplierPartnerOrderLayout';
 
 const SupplierPartnerShippedOrders = () => { 
     const setStoreTitle = useStore(state => state.setTitle); 
