@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
-import {Login} from './Components/Login/login.jsx';
+import Login from './Components/Login/login.jsx';
 import MainLayout from './Layout/MainLayout';
 import DashboardHome from './Pages/Home/DashboardHome';
 import OrderRoutes from './Routes/OrderRoutes';
